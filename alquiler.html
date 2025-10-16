@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>AutoRent S.A.S. - Alquiler</title>
+    <style>
+        body {font-family: Arial; background: #f0f0f5; color: #333;}
+        header {background: linear-gradient(90deg, #4B0082, #1E90FF); color: white; text-align: center; padding: 20px;}
+        nav a {color:white; text-decoration:none; margin:0 15px; font-weight:bold;}
+        nav a:hover {text-decoration: underline;}
+        section {padding:30px; max-width:500px; margin:auto;}
+        h2 {color:#4B0082; margin-bottom:15px;}
+        form input, form select, form textarea {padding:10px; margin-bottom:15px; border:1px solid #1E90FF; border-radius:5px; width:100%;}
+        form button {padding:10px; background:#4B0082; color:white; border:none; border-radius:5px; cursor:pointer;}
+        form button:hover {background:#1E90FF;}
+        footer {background: linear-gradient(90deg, #1E90FF, #4B0082); color:white; text-align:center; padding:15px;}
+    </style>
+</head>
+<body>
+    <header>
+        <h1>
+           <img src="logo autos.png" alt="Carrito" style="width:90px; vertical-align: middle; margin-right:10px;">
+            AutoRent S.A.S.
+        </h1>
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="vehiculos.html">Vehículos</a>
+            <a href="alquiler.html">Alquiler</a>
+            <a href="contacto.html">Contacto</a>
+        </nav>
+    </header>
+
+    <section>
+        <h2>Formulario de Alquiler</h2>
+        <form>
+    <input type="text" placeholder="Nombre completo" required>
+    <input type="email" placeholder="Correo electrónico" required>
+    <input type="text" placeholder="Tipo de vehículo (ej. Kia, Suzuki, Jeep, Honda, Toyota, Vans Familiar)" required>
+    <input type="text" placeholder="Fecha de alquiler (dd/mm/aaaa)" required>
+    <input type="text" placeholder="Fecha de devolución (dd/mm/aaaa)" required>
+    <textarea placeholder="Comentarios adicionales"></textarea>
+    <button type="submit">Enviar Solicitud</button>
+</form>
+
+
+    </section>
+
+    <footer>
+        <p>&copy; 2025 AutoRent S.A.S.</p>
+    </footer>
+</body>
+</html>
